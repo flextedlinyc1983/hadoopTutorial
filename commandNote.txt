@@ -1,4 +1,15 @@
+~/tmp
+~/hdfs/data
+~/hdfs/name
+/opt/hadoop/share/hadoop/mapreduce/
+
+/opt/hadoop/etc/hadoop/yarn-site.xml
+
+/opt/hadoop/sbin/start-all.sh
+
+....................................................
 bin/hadoop dfs -mkdir /input
 bin/hadoop dfs -put ~/input/file0* /input
 
+mr-jobhistory-daemon.sh  start historyserver
 
