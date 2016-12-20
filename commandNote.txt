@@ -10,6 +10,9 @@
 /opt/hadoop/share/hadoop/mapreduce$ hadoop jar hadoop-mapreduce-examples-2.6.0.jar 
 /opt/hadoop/share/hadoop/mapreduce$ hadoop jar hadoop-mapreduce-examples-2.6.0.jar wordcount /input /output
 
+http://master:19888/
+http://localhost:50070/explorer.html#/
+http://master:8088/cluster
 ....................................................
 bin/hadoop dfs -mkdir /input
 bin/hadoop dfs -put ~/input/file0* /input
