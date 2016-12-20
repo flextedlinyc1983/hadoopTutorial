@@ -1,0 +1,4 @@
+bin/hadoop dfs -mkdir /input
+bin/hadoop dfs -put ~/input/file0* /input
+
+
