@@ -7,6 +7,9 @@
 
 /opt/hadoop/sbin/start-all.sh
 
+/opt/hadoop/share/hadoop/mapreduce$ hadoop jar hadoop-mapreduce-examples-2.6.0.jar 
+/opt/hadoop/share/hadoop/mapreduce$ hadoop jar hadoop-mapreduce-examples-2.6.0.jar wordcount /input /output
+
 ....................................................
 bin/hadoop dfs -mkdir /input
 bin/hadoop dfs -put ~/input/file0* /input
